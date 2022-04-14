@@ -68,9 +68,6 @@ body {
 }
 
 
-/* NOVA SECTION */
-
-
 .secundario_img {
     width: 80%;
 }
@@ -89,4 +86,64 @@ body {
 
 .descricao_texto {
     color: var(--cinza-sencundario);
+}
+
+.segundario_botao {
+    display: inline-block;
+    margin-top: 1em;
+}
+
+.container_descricao {
+    padding: 2em;
+}
+
+.dispositivos_lista {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 5em 0;
+}
+
+.dispositivos {
+    text-align: center;
+}
+
+.dispositivos_titulo {
+    font-size: 48px;
+    color: var(--branco-principal);
+}
+
+.lista_itens {
+    font-size: 32px;
+    color: var(--branco-principal);
+}
+
+
+
+
+
+.rodape {
+    text-align: center;   
+}
+
+a {
+    text-decoration: none;
+    color: var(--cinza-sencundario)
+
+}
+
+.lista_link{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    display: inline-block;
+    margin: 1em 0;
+    padding: 5px;
+}
+
+.rodape_texto{
+    font-size: 12px;
+    margin: 1em 10em;
+    color: var(--cinza-sencundario)
 }
