@@ -57,10 +57,10 @@ body {
     margin-bottom: 1em;
 }
 
-.container_botao:hover {
+/* .container_botao:hover {
     background-color: var(--botao-azul-efeito);
     color: var(--cor-de-fundo);
-}
+} */
 
 .botao_sencundario {
     background-color: transparent;
@@ -123,10 +123,6 @@ body {
     font-size: 32px;
     color: var(--branco-principal);
 }
-
-
-
-
 
 .rodape {
     text-align: center;   
